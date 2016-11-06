@@ -10,6 +10,11 @@ Router.map(function () {
   this.route('sign-in');
   this.route('change-password');
   this.route('users');
+  this.route('visual', function() {
+    this.route('graphic-design', function() {
+      this.route('logos');
+    });
+  });
 });
 
 export default Router;
