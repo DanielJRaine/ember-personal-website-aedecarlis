@@ -3,7 +3,7 @@
 module.exports = function (environment) {
   'use strict';
   const ENV = {
-    modulePrefix: 'ga-wdi-boston.ember-auth',
+    modulePrefix: 'ember-personal-website-aedecarlis',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
