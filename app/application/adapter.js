@@ -5,7 +5,7 @@ import Ember from 'ember';
 
 export default ActiveModelAdapter.extend({
   host: ENV.apiHost,
-
+  namespace: 'api',
   auth: Ember.inject.service(),
 
   headers: Ember.computed('auth.credentials.token', {
