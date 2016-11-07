@@ -8,6 +8,11 @@
         <li>{{#link-to "users"}}Users{{/link-to}}</li>
         {{/if}}
         <li>{{#link-to "visual"}}Visual{{/link-to}}</li>
+        <li>{{#link-to "performing"}}performing{{/link-to}}</li>
+        <li>{{#link-to "bio"}}Bio{{/link-to}}</li>
+        <li>{{#link-to "contact"}}Contact{{/link-to}}</li>
+        {{!-- what model corresponds to the root route? --}}
+        {{!-- how do you inject a model into the index? --}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{#if isAuthenticated}}
