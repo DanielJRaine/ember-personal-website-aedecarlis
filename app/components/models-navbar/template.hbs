@@ -1,11 +1,9 @@
 {{yield}}
 {{!-- models-navbar --}}
-<ul>
-    {{#each model as |model|}}
-    <li>
-        {{#link-to (concat "visual." model.name)}}
-          {{item.name}}
-        {{/link-to}}
-    </li>
-    {{/each}}
-</ul>
+{{#each model as |model|}}
+  <li>
+      {{!-- {{#link-to (concat "visual." item.name)}} --}}
+      {{model.name}}
+      {{!-- {{/link-to}} --}}
+  </li>
+{{/each}}
