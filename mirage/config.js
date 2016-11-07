@@ -12,11 +12,13 @@ export default function() {
   this.namespace = 'api';    // make this `api`, for example, if your API is namespaced
   this.timing = 400;      // delay for each request, automatically set to 0 during testing
 
+// is it ok to have multiple endpoints go to the same flat db like this?
+// probably?
     this.get('/items');
-    // this.get('/sections');
-    // this.get('portfolios');
-    // this.get('artforms');
-    
+    this.get('/sections');
+    this.get('/portfolios');
+    this.get('/artforms');
+
   /*
     Shorthand cheatsheet:
 
