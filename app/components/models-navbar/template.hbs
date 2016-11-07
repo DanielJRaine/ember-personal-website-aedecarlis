@@ -2,7 +2,7 @@
 {{!-- models-navbar --}}
 {{#each model as |model|}}
   <li>
-      {{#link-to (concat "visual." model.name)}}
+      {{#link-to (concat parent "." model.name)}}
         {{model.name}}
       {{/link-to}}
   </li>
