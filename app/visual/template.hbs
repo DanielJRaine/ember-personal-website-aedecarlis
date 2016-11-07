@@ -1,8 +1,14 @@
 <h2>This is the Visual Gallery</h2>
-{{#link-to 'visual.graphic-design'}}
-  graphic-design
-{{/link-to}}
-{{outlet}}
+
+{{models-navbar model=model}}
+
+{{!-- {{#link-to 'visual.graphic-design'}} --}}
+  {{!-- {{#each}}
+    {{#link-to (concat "visual." model.name)}}
+      {{model.name}}
+    {{/link-to}}
+  {{/each}}
+{{outlet}} --}}
 {{!-- <ul>
     {{#each model as |exhibit|}}
       <li>
