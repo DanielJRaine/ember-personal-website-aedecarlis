@@ -1,9 +1,9 @@
 {{yield}}
 {{!-- models-navbar --}}
-{{#each model as |model|}}
+{{#each children as |child|}}
   <li>
-      {{#link-to (concat parent "." model.name)}}
-        {{model.name}}
-      {{/link-to}}
+    {{#link-to (concat parent "." child.name)}}
+        {{child.name}}
+    {{/link-to}}
   </li>
 {{/each}}

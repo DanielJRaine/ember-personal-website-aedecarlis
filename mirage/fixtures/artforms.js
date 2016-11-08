@@ -1,6 +1,14 @@
 export default [
-  { name: "visual" },
-  { name: "performing" },
-  { name: "bio" },
-  { name: "contact" },
+  {
+    name: "visual",
+  },
+  // {
+  //   name: "performing"
+  // },
+  // {
+  //   name: "bio"
+  // },
+  // {
+  //   name: "contact"
+  // },
 ];

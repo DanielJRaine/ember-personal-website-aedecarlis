@@ -2,11 +2,13 @@ export default [
   {
     name: 'portraits',
     artform: 'visual',
-    // items: ['portrait-1'],
+    portfolio: 'fine-arts',
+    items: ['portrait-1', 'portrait-2'],
   },
-  {
-    name: 'logos',
-    artform: 'visual',
+  // {
+    // name: 'logos',
+    // artform: 'visual',
+    // portfolio: 'graphic-design',
     // items: ['rainemaker, freshwagon'],
-  },
+  // },
 ];

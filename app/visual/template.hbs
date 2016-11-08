@@ -1,6 +1,7 @@
 <h2>This is the Visual Gallery</h2>
 {{!-- get access to the route name --}}
-{{models-navbar parent="visual" model=model}}
+{{models-navbar parent=model.parent children=model.children}}
+<h1>{{model.length}}</h1>
 {{outlet}}
 {{!-- {{#link-to 'visual.graphic-design'}} --}}
   {{!-- {{#each}}
