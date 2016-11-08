@@ -1,1 +1,6 @@
 {{outlet}}
+<ul>
+  {{#each model as |item|}}
+    <li>{{#link-to item.section}}{{item.section}}{{/link-to}}</li>
+  {{/each}}
+</ul>

@@ -24,6 +24,7 @@ Router.map(function () {
   this.route('caller');
   this.route('choreography');
   this.route('jazz');
+  this.route('new-item');
 });
 
 export default Router;
