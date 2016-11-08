@@ -1,0 +1,5 @@
+{{yield}}
+{{#each items as |item|}}
+<button><a href="#" {{action "destroyItem"}}>Delete</a></button>
+  <li><img src={{item.body}}/></li>
+{{/each}}
