@@ -11,6 +11,19 @@ Router.map(function () {
   this.route('change-password');
   this.route('users');
   this.route('visual');
+  this.route('fine-arts');
+  this.route('portraits');
+  this.route('musician-portraits');
+  this.route('other');
+  this.route('graphic-design');
+  this.route('wedding-and-event-drawing');
+  this.route('art-tudor');
+  this.route('art-model');
+  this.route('performing');
+  this.route('contra-dance');
+  this.route('caller');
+  this.route('choreography');
+  this.route('jazz');
 });
 
 export default Router;
