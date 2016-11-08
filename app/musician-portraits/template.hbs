@@ -1,10 +1,11 @@
 {{outlet}}
 {{#link-to 'new-item'}}Upload Item{{/link-to}}
-
-<ul style="list-style: none">
+{{#each model as |item|}}
+  <ul style="list-style: none">
+    {{item-gallery-frame item=item delete='destroyItem'}}
+  </ul>
+{{/each}}
   {{!-- {{#each model as |item|}}
     <li><img src={{item.body}}/></li>
   {{/each}}
   <a href="#" {{action "destroy"}}>Delete Item</a> --}}
-  {{item-gallery-frame items=model destroyItem=destroyItem}}
-</ul>
