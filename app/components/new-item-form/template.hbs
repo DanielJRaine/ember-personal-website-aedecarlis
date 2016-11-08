@@ -1,0 +1,12 @@
+{{yield}}
+<form enctype="multipart/form-data" id="new-movie-form" {{ action 'create' on='submit' }}>
+  <fieldset>
+    <legend>Add New Movie</legend>
+    <input type="text" class="form-control" name="item[name]" placeholder="Name">
+    <input type="file" name="item[body]" value="Upload Image File">
+    <input type="text" class="form-control" name="item[artform]" placeholder="visual or performance?">
+    <input type="text" class="form-control" name="item[portfolio]" placeholder="portfolio">
+    <input type="text" class="form-control" name="item[section]" placeholder="section">
+    <input type="submit" class="btn btn-success" name="submit" value="Add Item">
+  </fieldset>
+</form>
