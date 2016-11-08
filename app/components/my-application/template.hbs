@@ -9,7 +9,7 @@
         {{/if}}
 
         {{#each items as |item|}}
-          <li>{{#link-to item.artform}}item.artform{{/link-to}}</li>
+          <li>{{#link-to item.artform}}{{item.artform}}{{/link-to}}</li>
         {{/each}}
         {{!-- what model corresponds to the root route? --}}
         {{!-- how do you inject a model into the index? --}}
