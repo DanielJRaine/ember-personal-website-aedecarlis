@@ -1,4 +1,4 @@
-[Imgur](http://i.imgur.com/R2zg7Yz.png)
+![Imgur](http://i.imgur.com/R2zg7Yz.png)
 
 # text
 
