@@ -4,9 +4,13 @@ export default Ember.Route.extend({
   edits: Ember.inject.service(),
 
   model() {
-    return this.get('store').query('item', {portfolio: 'fine-arts'});
+    return this.get('store').filterBy('item', function(item){
+       if (item.get('section') === 'musician-portraits') {
+         return item;
+       }
+    });
   },
-  
+
   actions: {
     destroyItem (item) {
       return item.destroyRecord()
