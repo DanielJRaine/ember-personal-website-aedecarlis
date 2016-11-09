@@ -1,4 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/o6g3Y"><a href="//imgur.com/o6g3Y"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![aedecarlis personal website](http://imgur.com/a/o6g3Y)
 
 # text
 
