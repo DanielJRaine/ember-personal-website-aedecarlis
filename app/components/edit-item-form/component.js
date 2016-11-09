@@ -1,6 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  tagName: 'div',
+  classNames: ['col-lg-4'],
   actions: {
     edit() {
       let editedItem = new FormData(event.target);
