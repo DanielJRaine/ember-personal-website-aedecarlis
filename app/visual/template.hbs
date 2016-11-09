@@ -1,6 +1,5 @@
 {{outlet}}
-<ul>
-  {{#each model as |item|}}
-    <li>{{#link-to item.portfolio}}{{item.portfolio}}{{/link-to}}</li>
-  {{/each}}
-</ul>
+{{!-- {{artform-display items=model parent='performing'}} --}}
+{{#link-to 'fine-arts'}} fine-arts {{/link-to}}
+{{#link-to 'graphic-design'}} graphic-design {{/link-to}}
+{{#link-to 'other'}} other {{/link-to}}

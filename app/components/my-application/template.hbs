@@ -10,7 +10,7 @@
         <li>{{#link-to "users"}}Users{{/link-to}}</li>
         {{/if}}
 
-        {{#each items as |item|}}
+        {{#each navItems as |item|}}
           <li>{{#link-to item.artform}}{{item.artform}}{{/link-to}}</li>
         {{/each}}
         {{!-- what model corresponds to the root route? --}}

@@ -1,6 +1,4 @@
 {{outlet}}
-<ul>
-  {{#each model as |item|}}
-    <li>{{#link-to item.section}}{{item.section}}{{/link-to}}</li>
-  {{/each}}
-</ul>
+{{!-- {{portfolio-display items=model parent='fine-arts'}} --}}
+{{#link-to 'musician-portraits'}} musician-portraits {{/link-to}}
+{{#link-to 'portraits'}} portraits{{/link-to}}
