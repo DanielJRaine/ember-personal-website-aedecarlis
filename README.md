@@ -1,4 +1,4 @@
-[![Angela DeCarlis Personal Website](http://imgur.com/a/o6g3Y)
+[![Angela DeCarlis Personal Website](http://imgur.com/a/o6g3Y)]
 
 # text
 
