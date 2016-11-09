@@ -1,3 +1,4 @@
 {{yield}}
 {{!-- <button class="pull-right" {{action "delete"}}>Delete</button> --}}
-<img height="500px" width="auto" src={{item.body}}/>
+{{edit-item-form item=item edit='edit' delete='delete'}}
+<img style="max-height: 500px; max-width: 500px;"  src={{item.body}}/>
