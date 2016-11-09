@@ -1,7 +1,7 @@
 {{outlet}}
-{{#link-to 'new-item'}}Upload Item{{/link-to}}
 {{#each model as |item|}}
   <ul style="list-style: none">
+    {{edit-item-form item=item edit='editItem'}}
     {{item-gallery-frame item=item delete='destroyItem'}}
   </ul>
 {{/each}}

@@ -5,7 +5,6 @@ export default Ember.Route.extend({
 
   actions: {
     createItem(newItem) {
-      console.log(newItem);
       return this.get('uploads').newItemUpload(newItem)
       .catch((error) => console.error(error));
     },
