@@ -4,6 +4,9 @@ export default Ember.Component.extend({
   tagName: 'div',
   classNames: ['col-lg-4'],
   actions: {
+    delete() {
+      this.sendAction('delete', this.get('item'));
+    },
     edit() {
       let editedItem = new FormData(event.target);
       editedItem.id = this.get('item').get('id');
