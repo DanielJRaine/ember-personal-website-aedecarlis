@@ -1,10 +1,17 @@
 {{outlet}}
-{{#each model as |item|}}
-  <ul style="list-style: none">
-    {{edit-item-form item=item edit='editItem'}}
-    {{item-gallery-frame item=item delete='destroyItem'}}
-  </ul>
-{{/each}}
+<div class="container">
+  <div class="row">
+    {{#each model as |item|}}
+        {{edit-item-form item=item edit='editItem'}}
+    {{/each}}
+  </div>
+    
+  <div class="row">
+    {{#each model as |item|}}
+        {{item-gallery-frame item=item delete='destroyItem'}}
+    {{/each}}
+  </div>
+</div>
   {{!-- {{#each model as |item|}}
     <li><img src={{item.body}}/></li>
   {{/each}}
