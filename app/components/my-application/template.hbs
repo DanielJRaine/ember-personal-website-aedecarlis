@@ -4,10 +4,10 @@
 
     <div class="collapse navbar-collapse" id="navigation">
       <ul class="nav navbar-nav">
-        <li>{{#link-to 'new-item'}}Upload Item{{/link-to}}</li>
 
         {{#if isAuthenticated}}
-        <li>{{#link-to "users"}}Users{{/link-to}}</li>
+        <li>{{#link-to 'new-item'}}Upload Item{{/link-to}}</li>
+        {{!-- <li>{{#link-to "users"}}Users{{/link-to}}</li> --}}
         {{/if}}
 
         {{#each navItems as |item|}}
