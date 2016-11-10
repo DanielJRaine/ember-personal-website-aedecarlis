@@ -39,7 +39,7 @@ module.exports = function (environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.rootUrl = '/';
+    ENV.rootUrl = '/ember-personal-website-aedecarlis';
     ENV.locationType = 'none';
 
     // keep test console output quieter
@@ -51,6 +51,8 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     ENV.locationType = 'hash';
+    ENV.rootUrl = '/ember-personal-website-aedecarlis';
+    ENV.apiHost = `https://aedecarlis-gallery-api.herokuapp.com`;
   }
 
   return ENV;
