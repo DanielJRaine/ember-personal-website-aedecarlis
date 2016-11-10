@@ -2557,7 +2557,7 @@ define('ember-personal-website-aedecarlis/tests/portraits/route.jshint', ['expor
   QUnit.module('JSHint | portraits/route.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'portraits/route.js should pass jshint.\nportraits/route.js: line 14, col 10, Expected \')\' and instead saw \':\'.\nportraits/route.js: line 14, col 11, Missing semicolon.\nportraits/route.js: line 15, col 23, Missing semicolon.\nportraits/route.js: line 18, col 6, Expected an identifier and instead saw \',\'.\nportraits/route.js: line 18, col 6, Expected an assignment or function call and instead saw an expression.\nportraits/route.js: line 18, col 7, Missing semicolon.\nportraits/route.js: line 19, col 26, Missing semicolon.\nportraits/route.js: line 21, col 6, Expected an identifier and instead saw \',\'.\nportraits/route.js: line 21, col 6, Expected an assignment or function call and instead saw an expression.\nportraits/route.js: line 21, col 7, Missing semicolon.\nportraits/route.js: line 22, col 4, Expected an identifier and instead saw \',\'.\nportraits/route.js: line 22, col 4, Expected an assignment or function call and instead saw an expression.\nportraits/route.js: line 22, col 5, Missing semicolon.\nportraits/route.js: line 22, col 4, Unrecoverable syntax error. (91% scanned).\n\n14 errors');
+    assert.ok(true, 'portraits/route.js should pass jshint.');
   });
 });
 define('ember-personal-website-aedecarlis/tests/resolver.jshint', ['exports'], function (exports) {

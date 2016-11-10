@@ -9,7 +9,6 @@ export default Ember.Route.extend({
         return items.filterBy('section', 'portraits');
       });
     },
-  },
 
   actions: {
     destroyItem (item) {
