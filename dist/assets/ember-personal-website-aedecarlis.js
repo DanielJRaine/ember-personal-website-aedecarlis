@@ -1096,41 +1096,6 @@ define('ember-personal-website-aedecarlis/components/my-application/component', 
 define("ember-personal-website-aedecarlis/components/my-application/template", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template((function () {
     var child0 = (function () {
-      return {
-        meta: {
-          "revision": "Ember@2.8.3",
-          "loc": {
-            "source": null,
-            "start": {
-              "line": 7,
-              "column": 12
-            },
-            "end": {
-              "line": 7,
-              "column": 46
-            }
-          },
-          "moduleName": "ember-personal-website-aedecarlis/components/my-application/template.hbs"
-        },
-        isEmpty: false,
-        arity: 0,
-        cachedFragment: null,
-        hasRendered: false,
-        buildFragment: function buildFragment(dom) {
-          var el0 = dom.createDocumentFragment();
-          var el1 = dom.createTextNode("Upload Item");
-          dom.appendChild(el0, el1);
-          return el0;
-        },
-        buildRenderNodes: function buildRenderNodes() {
-          return [];
-        },
-        statements: [],
-        locals: [],
-        templates: []
-      };
-    })();
-    var child1 = (function () {
       var child0 = (function () {
         return {
           meta: {
@@ -1138,12 +1103,12 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
             "loc": {
               "source": null,
               "start": {
-                "line": 10,
+                "line": 9,
                 "column": 12
               },
               "end": {
-                "line": 10,
-                "column": 37
+                "line": 9,
+                "column": 46
               }
             },
             "moduleName": "ember-personal-website-aedecarlis/components/my-application/template.hbs"
@@ -1154,7 +1119,7 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
           hasRendered: false,
           buildFragment: function buildFragment(dom) {
             var el0 = dom.createDocumentFragment();
-            var el1 = dom.createTextNode("Users");
+            var el1 = dom.createTextNode("Upload Item");
             dom.appendChild(el0, el1);
             return el0;
           },
@@ -1172,7 +1137,7 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
           "loc": {
             "source": null,
             "start": {
-              "line": 9,
+              "line": 8,
               "column": 8
             },
             "end": {
@@ -1203,12 +1168,12 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
           morphs[0] = dom.createMorphAt(dom.childAt(fragment, [1]), 0, 0);
           return morphs;
         },
-        statements: [["block", "link-to", ["users"], [], 0, null, ["loc", [null, [10, 12], [10, 49]]]]],
+        statements: [["block", "link-to", ["new-item"], [], 0, null, ["loc", [null, [9, 12], [9, 58]]]]],
         locals: [],
         templates: [child0]
       };
     })();
-    var child2 = (function () {
+    var child1 = (function () {
       var child0 = (function () {
         return {
           meta: {
@@ -1290,7 +1255,7 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
         templates: [child0]
       };
     })();
-    var child3 = (function () {
+    var child2 = (function () {
       var child0 = (function () {
         return {
           meta: {
@@ -1379,7 +1344,7 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
         templates: [child0]
       };
     })();
-    var child4 = (function () {
+    var child3 = (function () {
       var child0 = (function () {
         return {
           meta: {
@@ -1457,7 +1422,7 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
         templates: [child0]
       };
     })();
-    var child5 = (function () {
+    var child4 = (function () {
       return {
         meta: {
           "revision": "Ember@2.8.3",
@@ -1539,12 +1504,6 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
         dom.appendChild(el3, el4);
         var el4 = dom.createElement("ul");
         dom.setAttribute(el4, "class", "nav navbar-nav");
-        var el5 = dom.createTextNode("\n        ");
-        dom.appendChild(el4, el5);
-        var el5 = dom.createElement("li");
-        var el6 = dom.createComment("");
-        dom.appendChild(el5, el6);
-        dom.appendChild(el4, el5);
         var el5 = dom.createTextNode("\n\n");
         dom.appendChild(el4, el5);
         var el5 = dom.createComment("");
@@ -1611,19 +1570,18 @@ define("ember-personal-website-aedecarlis/components/my-application/template", [
         var element1 = dom.childAt(fragment, [0, 1]);
         var element2 = dom.childAt(element1, [3]);
         var element3 = dom.childAt(element2, [1]);
-        var morphs = new Array(7);
+        var morphs = new Array(6);
         morphs[0] = dom.createMorphAt(element1, 1, 1);
-        morphs[1] = dom.createMorphAt(dom.childAt(element3, [1]), 0, 0);
+        morphs[1] = dom.createMorphAt(element3, 1, 1);
         morphs[2] = dom.createMorphAt(element3, 3, 3);
-        morphs[3] = dom.createMorphAt(element3, 5, 5);
-        morphs[4] = dom.createMorphAt(dom.childAt(element2, [3]), 1, 1);
-        morphs[5] = dom.createMorphAt(fragment, 6, 6, contextualElement);
-        morphs[6] = dom.createMorphAt(dom.childAt(fragment, [8]), 1, 1);
+        morphs[3] = dom.createMorphAt(dom.childAt(element2, [3]), 1, 1);
+        morphs[4] = dom.createMorphAt(fragment, 6, 6, contextualElement);
+        morphs[5] = dom.createMorphAt(dom.childAt(fragment, [8]), 1, 1);
         return morphs;
       },
-      statements: [["content", "navbar-header", ["loc", [null, [3, 4], [3, 21]]], 0, 0, 0, 0], ["block", "link-to", ["new-item"], [], 0, null, ["loc", [null, [7, 12], [7, 58]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [9, 14], [9, 29]]], 0, 0, 0, 0]], [], 1, null, ["loc", [null, [9, 8], [11, 15]]]], ["block", "each", [["get", "navItems", ["loc", [null, [13, 16], [13, 24]]], 0, 0, 0, 0]], [], 2, null, ["loc", [null, [13, 8], [15, 17]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [20, 14], [20, 29]]], 0, 0, 0, 0]], [], 3, 4, ["loc", [null, [20, 8], [26, 15]]]], ["block", "each", [["get", "flashMessages.queue", ["loc", [null, [35, 8], [35, 27]]], 0, 0, 0, 0]], [], 5, null, ["loc", [null, [35, 0], [37, 9]]]], ["content", "outlet", ["loc", [null, [40, 2], [40, 12]]], 0, 0, 0, 0]],
+      statements: [["content", "navbar-header", ["loc", [null, [3, 4], [3, 21]]], 0, 0, 0, 0], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [8, 14], [8, 29]]], 0, 0, 0, 0]], [], 0, null, ["loc", [null, [8, 8], [11, 15]]]], ["block", "each", [["get", "navItems", ["loc", [null, [13, 16], [13, 24]]], 0, 0, 0, 0]], [], 1, null, ["loc", [null, [13, 8], [15, 17]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [20, 14], [20, 29]]], 0, 0, 0, 0]], [], 2, 3, ["loc", [null, [20, 8], [26, 15]]]], ["block", "each", [["get", "flashMessages.queue", ["loc", [null, [35, 8], [35, 27]]], 0, 0, 0, 0]], [], 4, null, ["loc", [null, [35, 0], [37, 9]]]], ["content", "outlet", ["loc", [null, [40, 2], [40, 12]]], 0, 0, 0, 0]],
       locals: [],
-      templates: [child0, child1, child2, child3, child4, child5]
+      templates: [child0, child1, child2, child3, child4]
     };
   })());
 });
