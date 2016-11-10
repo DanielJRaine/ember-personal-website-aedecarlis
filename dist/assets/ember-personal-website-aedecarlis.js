@@ -3237,9 +3237,9 @@ define('ember-personal-website-aedecarlis/portraits/route', ['exports', 'ember']
     edits: _ember['default'].inject.service(),
 
     model: function model() {
-      // return this.get('store').query('item', {section: 'portraits'});
-      return this.get('store').findAll('item');
-      //.filterBy('item', 'portraits');
+      return this.get('store').findAll('item').then(function (items) {
+        return items.filterBy('section', 'portraits');
+      });
     },
 
     actions: {
@@ -3910,7 +3910,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-personal-website-aedecarlis/app")["default"].create({"name":"ember-personal-website-aedecarlis","version":"0.0.0+48ab60de"});
+  require("ember-personal-website-aedecarlis/app")["default"].create({"name":"ember-personal-website-aedecarlis","version":"0.0.0+a39d7607"});
 }
 
 /* jshint ignore:end */
