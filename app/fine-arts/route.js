@@ -1,7 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  // model() {
-  //   return this.get('store').query('item', {portfolio: 'fine-arts'});
-  // },
+  model() {
+    return this.get('store').findAll('item')
+      .then((items) => {
+        return items.filterBy('portfolio', 'fine-arts');
+      });
+    },
 });

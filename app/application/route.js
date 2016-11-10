@@ -17,7 +17,6 @@ export default Ember.Route.extend({
         this.get('flashMessages')
         .danger('There was a problem. Are you sure you\'re signed-in?');
       });
-      this.store.unloadAll();
     },
 
     // error (reason) {

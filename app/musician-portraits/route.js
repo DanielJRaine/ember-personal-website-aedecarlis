@@ -4,10 +4,9 @@ export default Ember.Route.extend({
   edits: Ember.inject.service(),
 
   model() {
-    return this.get('store').filterBy('item', function(item){
-       if (item.get('section') === 'musician-portraits') {
-         return item;
-       }
+    return this.get('store').findAll('item')
+    .then((items) => {
+      return items.filterBy('section', 'musician-portraits');
     });
   },
 
