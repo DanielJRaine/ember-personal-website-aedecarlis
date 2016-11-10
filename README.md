@@ -63,7 +63,7 @@ already need to know everything about Ember before using it, otherwise you will 
 
 ## Wireframing
 Wireframing and site outline was based entirely on the following template:
-![Wrap Bootstrap purchased template](http://wrapbootstrap.com/preview/WB0905P3F)
+![WrapBootstrap Template](http://i.imgur.com/QpS7YJb.png)
 
 ## [License](LICENSE)
 
