@@ -3830,7 +3830,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ember-personal-website-aedecarlis/app")["default"].create({"name":"ember-personal-website-aedecarlis","version":"0.0.0+ed2e6225"});
+  require("ember-personal-website-aedecarlis/app")["default"].create({"name":"ember-personal-website-aedecarlis","version":"0.0.0+08ef0379"});
 }
 
 /* jshint ignore:end */
