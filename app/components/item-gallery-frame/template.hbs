@@ -1,4 +1,6 @@
 {{yield}}
 {{!-- <button class="pull-right" {{action "delete"}}>Delete</button> --}}
-{{edit-item-form item=item edit='edit' delete='delete'}}
+{{#if isAuthenticated}}
+  {{edit-item-form item=item edit='edit' delete='delete'}}
+{{/if}}
 <img class="col-lg-12 col-md-12 col-sm-12 col-xs-12"src={{item.body}}/>

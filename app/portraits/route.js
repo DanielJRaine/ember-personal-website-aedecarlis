@@ -4,7 +4,11 @@ export default Ember.Route.extend({
   edits: Ember.inject.service(),
 
   model() {
-    return this.get('store').query('item', {section: 'portraits'});
+    return this.get('store').findAll('item')
+      .then((items) => {
+        return items.filterBy('section', 'portraits');
+      });
+    },
   },
 
   actions: {
