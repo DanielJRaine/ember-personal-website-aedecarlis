@@ -5,7 +5,7 @@ module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'ember-personal-website-aedecarlis',
     environment: environment,
-    rootURL: '/',
+    rootURL: '/ember-personal-website-aedecarlis',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
